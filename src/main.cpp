@@ -1,7 +1,8 @@
 #include <iostream>
 
 int main() {
-
-  std::cout << "Hello World!\n";
+  const int magical = 5555;
+  int magic{magical};
+  std::cout << "Hello World!\n" << magic;
   return 0;
 }
